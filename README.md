@@ -10,7 +10,7 @@ Replica of the ETL PySpark project for the course "Machine Learning and Date Eng
 ## What it does
 End-to-end **ETL pipeline with PySpark** + **Linear Regression** to predict Titanic passenger **fare** prices. 
 - **Extract**: Load Titanic CSV dataset
-- **Transform**: Feature engineering (Title extraction, FamilySize, OneHotEncoding)
+- **Transform**: Basic Transform operations + feature engineering (StringIndexing, OneHotEncoding, Scaling)
 - **Load**: Model training + evaluation (RMSE, MAE, R²)
 - **Results**: R²=0.31, RMSE=57£, MAE=24£ (realistic for LinearRegression)
 
@@ -27,5 +27,5 @@ End-to-end **ETL pipeline with PySpark** + **Linear Regression** to predict Tita
 ```bashclear
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+
