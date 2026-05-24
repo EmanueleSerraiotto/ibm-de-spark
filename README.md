@@ -1,5 +1,5 @@
 # ibm-de-spark
-Replica of the ETL PySpark project for the course "Machine Learning and Date Engineering" of the IBM Data Engineering Certification
+Replica of the ETL PySpark project for the course "Machine Learning and Data Engineering" of the IBM Data Engineering Certification
 
 # dataset
 https://www.kaggle.com/datasets/yasserh/titanic-dataset
